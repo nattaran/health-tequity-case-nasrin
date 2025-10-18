@@ -1,0 +1,34 @@
+# Core dependencies
+numpy>=1.26.0
+pandas>=2.2.0
+matplotlib>=3.8.0
+
+# Machine Learning / Deep Learning
+torch>=2.1.0
+torchaudio>=2.1.0
+
+# OpenAI SDK for GPT & Whisper API
+openai>=1.12.0
+tiktoken>=0.6.0
+
+# Whisper ASR (installed directly from GitHub for latest version)
+git+https://github.com/openai/whisper.git
+
+# Audio processing and file handling
+ffmpeg-python>=0.2.0
+soundfile>=0.12.1
+librosa>=0.10.1
+pydub>=0.25.1
+
+# Evaluation metrics
+jiwer>=3.0.3
+python-Levenshtein>=0.25.0
+
+# Text-to-Speech and Translation
+gtts>=2.3.2
+deep-translator>=1.11.4
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.66.1
+
